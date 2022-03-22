@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: (your choice), sans-serif;
+    letter-spacing: 0.03em;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 30px;
+  }
+  .card {
+    /* Add shadows*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    max-height: 600px;
+    max-width: 400px;
+  }
+  .card:hover {
+    box-shadow: 0 20px 32px 0 rgba(0,0,0,0.2);
+  }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+}
+    /* Hover to shadow deeper*/
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}  
+  #temple_img{
+    border-radius: 30px;
+    padding: 20px;
+    width: 350px;
+    height: 250px
+}
+.sq {
+    padding: 20px;
+}
+.sq:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} 
+.detail {
+    padding: 20px;
+    border-radius: 30px;
+}
